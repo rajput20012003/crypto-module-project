@@ -1,0 +1,43 @@
+
+.app {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  margin-bottom: 0px;
+}
+
+input[type="text"] {
+  margin-right: 10px;
+  padding: 5px;
+}
+button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th {
+  background-color: #333; */
+   color: white;
+}
+
+tr {
+  background-color: black;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: black;
+}
